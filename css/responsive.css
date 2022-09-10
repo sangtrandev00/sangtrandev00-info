@@ -140,5 +140,9 @@
     .personal-site__contact-links > ul > li {
         margin: 1rem 0;
     }
+
+    .personal-site__brand {
+        margin-bottom: 2rem
+    }
 }
 
