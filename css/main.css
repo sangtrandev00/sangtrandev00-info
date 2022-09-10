@@ -1,0 +1,419 @@
+
+
+#wrapper {
+    
+    margin: 0 auto;
+}
+
+
+.personal-site{
+
+}
+.personal-site__header{
+    max-width: 1208px;
+    margin: 0 auto;
+}
+.personnal-site__navbar{
+    padding: 3.4rem 1.6rem;
+}
+
+.personnal-site__brand {
+    font-size: 2rem;
+}
+
+.personal-site__search {
+
+}
+
+.personal-site__search > input,
+.personal-site__search > button {
+    font-size: 1.6rem;
+}
+
+.form-control{
+
+}
+
+.dropdown-item {
+    font-size: 1.6rem;
+}
+
+.personal-site__intro{
+    padding: 1.6rem;
+}
+
+.intro__quick-section{
+
+}
+.intro__quick-hello{
+    font-weight: 600;
+    line-height: 1.5;
+    font-size: 3.5rem;
+    margin: 2rem 0;
+}
+
+
+
+.intro__quick-desc{
+
+}
+.intro__quick-social-title {
+    font-weight: bold;
+    margin-top: 2rem;
+}
+
+.intro__social-icons{
+    margin: 2rem 0rem;
+}
+.social-item{
+    text-decoration: none;
+}
+
+.social-item:not(:first-child) {
+    margin-left: 1rem;
+}
+
+.social-item__icons {
+    font-size: 2.0rem;
+
+}
+
+
+.intro__my-resume{
+    font-size: 1.2rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #212529;
+    background-color: #fff;
+    border-color: #fff;
+    box-shadow: 0 4px 6px rgb(50 50 93 / 11%), 0 1px 3px rgb(0 0 0 / 8%);
+
+    padding: 1rem 2rem;
+}
+
+.intro__avatar{
+    text-align: right;
+   
+}
+.intro__avatar-img{
+    border-radius: 10px;
+    width: 40rem;
+}
+.personal-site__main{
+    max-width: 1208px;
+    margin: 0 auto;
+}
+
+/* What I Do Section */
+
+.what-i-do{
+    padding: 4rem 0;
+}
+.what-i-do__title{
+    text-align: center;
+    font-size: 4rem;
+    font-weight: bold;
+}
+.what-i-do__sub-title{
+    text-align: center;
+    
+}
+.what-i-do__section{
+    margin-top: 2rem;
+}
+.what-i-do__my-img{
+
+}
+.what-i-do__skills{
+    text-align: center;
+}
+.what-i-do__skills-title{
+   font-size: 2.5rem;
+}
+.what-i-do__skills-tech-list{
+    padding: 4rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.what-i-do__skills-tech-img{
+    /* padding: 0.5rem; */
+    border-radius: 100%;
+    background-color: #ccc;
+
+    display: inline-block;
+    width: 8rem;
+    height: 8rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.skills-img{
+    width: 4rem;
+}
+
+
+/* Galleries personal sites */
+
+
+
+.personal-site__galleries{
+    height: 48rem;
+}
+
+.personal-site__galleries-heading {
+    font-weight: bold;
+    margin: 2rem 0rem;
+    font-size: 3rem;
+}
+
+.personal-site__galleries-side{
+
+}
+.personal-site__galleries-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8%;
+}
+.galleries-site__gallerries-center{
+
+}
+
+
+
+/* Proficiency section */
+
+
+.personal-site__proficiency-working{
+
+}
+
+.progress-section{
+    
+   
+}
+
+.proficiency__title{
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.proficiency__progress{
+    margin-top: 2rem;
+}
+
+.progress-label{
+
+}
+
+.progress-percentage{
+    text-align: right;
+}
+
+.progress{
+    height: 2rem;
+    font-size: 1.4rem;
+}
+
+.progress-bar{
+    background-color: #263243;
+}
+
+.proficiency-img{
+    width: 100%;
+}
+
+
+/* Projects */
+
+
+.person-site__project{
+
+}
+.person-site__project-title{
+    font-weight: bold;
+    font-size: 3rem;
+    /* color: #11cdef; */
+    padding: 2rem 0;
+}
+.person-site__project-title span {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 8rem;
+    height: 8rem;
+    border-radius: 100%;
+    background-color: #fff;
+    box-shadow: 0 15px 35px rgba(50,50,93,.1),0 5px 15px rgba(0,0,0,.07)
+}
+
+.person-site__project-list{
+
+}
+.card.person-site__project-item{
+    padding:0 3rem;
+    margin-top: 4rem;
+}
+
+
+.project-item__title{
+    font-size: 2.6rem;
+    margin: 2rem 0;
+}
+.project-item__desc{
+
+}
+.project-item__button{
+    padding: 1rem 2rem;
+    font-size: 1.4rem;
+    margin: 2rem 0;
+
+    background-color: #000;
+}
+.project-item__link{
+
+}
+
+.card{
+
+}
+.card-body{
+    
+}
+.card-title{
+    
+}
+.card-text{
+
+}
+.btn{
+
+}
+.btn-primary{
+
+}
+
+
+/* Background section */
+.background-wrap {
+    
+    
+    background-color: #F2F5F7;
+}
+
+.background{
+    /* background-color: #F2F5F7; */
+    max-width: 1208px;
+    margin: 0 auto;
+}
+.background__title{
+    font-weight: bold;
+    font-size: 3rem;
+    padding: 2rem 0;
+}
+.background__section{
+    margin-top: 2rem;
+}
+.background__section-title{
+    font-weight: 600;
+}
+
+.background__section-desc{
+
+}
+.background__section-item{
+   margin-bottom: 2rem;
+}
+.background__section-school{
+    font-weight: 600;
+}
+.background__section-complete{
+
+}
+.background__section-item-link{
+
+}
+
+.form {
+
+}
+
+.contact-me{
+    
+    background-color: #ccc;
+    
+}
+.contact-me__heading{
+    font-weight: bold;
+    font-size: 3rem;
+}
+.contact-me__wrap{
+    margin: 2rem auto;
+    max-width: 1208px;
+    padding: 4rem 0;
+}
+
+.form-group {
+    margin-top: 2rem;
+}
+
+.form-label{
+    font-size: 1.6rem;
+   
+}
+.form-btn,
+.form-control{
+    font-size: 1.6rem;
+}
+.contact-me__img-wrap{
+    padding-left: 2rem;
+}
+.contact-me__img{
+    width: 100%;
+    border-radius: 8%;
+}
+
+.form-btn {
+    padding: 1rem 2rem;
+    background-color: #000;
+}
+
+
+.personal-site__footer{
+    height: 40rem;
+    background-color: #212529;
+    color: #fff;
+}
+
+.footer__wrap {
+    max-width: 1208px;
+    margin: 0 auto;
+    padding: 10rem 0;
+}
+
+.personal-site__brand {
+    font-size: 3rem;
+
+}
+
+.personal-site__contact-links {
+    
+}
+
+.personal-site__contact-links h3 {
+
+}
+
+.personal-site__contact-links ul {
+    list-style-type: none;
+}
+
+.personal-site__contact-links li {
+
+}
+
+.personal-site__contact-links a {
+
+}

@@ -1,0 +1,625 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Jquery and Bootstrap teamplate -- PERSONAL PAGE</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS v5.2.0-beta1 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
+    <!-- Fonts icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Google fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;800;900&family=Open+Sans:wght@300;400;500;600;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Links style css -->
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+    <div id="wrapper">
+        <div class="personal-site">
+            <header class="personal-site__header">
+                <!-- place navbar here -->
+                <nav class="personnal-site__navbar navbar navbar-expand-lg bg-light py-5">
+                    <div class="container-fluid">
+                        <a class="personnal-site__brand navbar-brand personal-site" href="#">
+                            SANG TRAN DEV 00
+                        </a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 me-5">
+                                <li class="nav-item px-4">
+                                    <a class="nav-link active" href="#introduction" aria-current="page">ABOUT ME</a>
+                                </li>
+                                <li class="nav-item px-4">
+                                    <a class="nav-link" href="#technologySkills">WHAT I DO</a>
+                                </li>
+                                <li class="nav-item px-4">
+                                    <a class="nav-link" href="#background">BACKGROUND</a>
+                                </li>
+                                <li class="nav-item px-4">
+                                    <a class="nav-link" href="#contact">CONTACT</a>
+                                </li>
+                                <li class="nav-item px-4 dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        OTHER
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">My Favourites</a></li>
+                                        <li><a class="dropdown-item" href="#">Blog</a></li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <form class="d-flex personal-site__search" role="search">
+                                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                                <button class="btn btn-outline-success" type="submit">Search</button>
+                            </form>
+                        </div>
+                    </div>
+                </nav>
+
+                <div id="introduction" class="personal-site__intro">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="intro__quick-section">
+                                <h2 class="intro__quick-hello">Hi all, I'm SangTranDev00</h2>
+                                <p class="intro__quick-desc">
+                                    I'm passionate Full Stack web developer having an experience of web applications
+                                    with Html5, Css3, Javascript, Jquery, Bootstrap 5, ES6, Typescript , React.js, React
+                                    Native, Nodejs, ExpressJS,
+                                    Next.js and Blockchain development
+                                    on Ethereum,
+                                    Solidity, Rust, Motoko, Web3.js, Moralis, and Brownie Framework.
+                                </p>
+                                <h3 class="intro__quick-social-title">
+                                    You can contact me via:
+                                </h3>
+                                <div class="intro__social-icons">
+                                    <a href="https://www.facebook.com/tran.nsang.00" class="social-item">
+                                        <i class="social-item__icons fa-brands fa-facebook"></i>
+                                    </a>
+                                    <a href="" class="social-item">
+                                        <i class="social-item__icons fa-brands fa-instagram"></i>
+                                    </a>
+                                    <a href="https://github.com/sangtrandev00" class="social-item">
+                                        <i class="social-item__icons fa-brands fa-github"></i>
+                                    </a>
+                                    <a href="" class="social-item">
+                                        <i class="social-item__icons fa-brands fa-linkedin"></i>
+                                    </a>
+                                    <a href="" class="social-item">
+                                        <i class="social-item__icons fa-brands fa-twitter"></i>
+                                    </a>
+                                </div>
+
+                                <button class="intro__my-resume">
+                                    <i class="fa fa-file" aria-hidden="true"></i>
+                                    SEE MY RESUME
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="intro__avatar">
+                                <img src="./images/Anh Dai Dien Truong SPKT .jpg" alt="" class="intro__avatar-img">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <main class="personal-site__main">
+                <div id="technologySkills" class="what-i-do">
+                    <h2 class="what-i-do__title">What I DO
+                    </h2>
+                    <p class="what-i-do__sub-title">CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK
+                    </p>
+                    <div class="what-i-do__section">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <img src="./images/fullstack-development.png" alt="" class="what-i-do__my-img">
+                            </div>
+                            <div class="col-md-6 d-flex align-items-center">
+                                <div class="what-i-do__skills">
+                                    <h3 class="what-i-do__skills-title">Full Stack Development</h3>
+                                    <div class="what-i-do__skills-tech-list">
+                                        <span class="what-i-do__skills-tech-img">
+                                            <img src="https://symbols.getvecta.com/stencil_25/35_html5.d4d8050235.svg"
+                                                alt="" class="skills-img">
+                                        </span>
+                                        <span class="what-i-do__skills-tech-img">
+                                            <img src="https://symbols.getvecta.com/stencil_25/14_css3.d930bfb832.svg"
+                                                alt="" class="skills-img">
+                                        </span>
+                                        <span class="what-i-do__skills-tech-img">
+                                            <img src="https://symbols.getvecta.com/stencil_25/75_sass.57898c574e.svg"
+                                                alt="" class="skills-img">
+                                        </span>
+                                        <span class="what-i-do__skills-tech-img">
+                                            <img src="https://symbols.getvecta.com/stencil_25/5_bootstrap.bbf5d3d59c.svg"
+                                                alt="" class="skills-img">
+                                        </span>
+                                        <!-- Javascript -->
+                                        <span class="what-i-do__skills-tech-img">
+                                            <img src="https://symbols.getvecta.com/stencil_25/39_javascript.0ca26ec4ab.svg"
+                                                alt="" class="skills-img">
+                                        </span>
+                                        <!-- Jquery -->
+                                        <span class="what-i-do__skills-tech-img">
+                                            <img src="https://symbols.getvecta.com/stencil_25/43_jquery.18209fdd44.svg"
+                                                alt="" class="skills-img">
+                                        </span>
+                                        <!-- Typescript -->
+                                        <span class="what-i-do__skills-tech-img">
+                                            <img src="https://symbols.getvecta.com/stencil_25/85_typescript.cb2d7326fa.svg"
+                                                alt="" class="skills-img">
+                                        </span>
+                                        <!-- Nodejs -->
+                                        <span class="what-i-do__skills-tech-img">
+                                            <img src="https://symbols.getvecta.com/stencil_25/61_nodejs.124d3fe0e1.svg"
+                                                alt="" class="skills-img">
+                                        </span>
+                                        <!-- ReactJS -->
+                                        <span class="what-i-do__skills-tech-img">
+                                            <img src="https://symbols.getvecta.com/stencil_25/70_react.76a8d36b4b.svg"
+                                                alt="" class="skills-img">
+                                        </span>
+                                        <!-- NextJS -->
+                                        <span class="what-i-do__skills-tech-img">
+                                            <img src="https://www.svgrepo.com/show/354113/nextjs-icon.svg" alt=""
+                                                class="skills-img">
+                                        </span>
+                                        <!-- Npm -->
+                                        <span class="what-i-do__skills-tech-img">
+                                            <img src="https://symbols.getvecta.com/stencil_25/62_npm.adb6bcbc13.svg"
+                                                alt="" class="skills-img">
+                                        </span>
+                                        <!-- Yarn -->
+                                        <span class="what-i-do__skills-tech-img">
+                                            <img src="https://symbols.getvecta.com/stencil_25/89_yarn.2db148fcb7.svg"
+                                                alt="" class="skills-img">
+                                        </span>
+                                        <!-- Mysql -->
+                                        <span class="what-i-do__skills-tech-img">
+                                            <img src="https://symbols.getvecta.com/stencil_261/27_mysql.4e2ff8ff6c.svg"
+                                                alt="" class="skills-img">
+                                        </span>
+                                        <!-- MongoDB -->
+                                        <span class="what-i-do__skills-tech-img">
+                                            <img src="https://symbols.getvecta.com/stencil_261/25_mongodb.cef7d00b8a.svg"
+                                                alt="" class="skills-img">
+                                        </span>
+
+                                    </div>
+
+                                    <div class="what-i-do__skills-desc-list">
+                                        <p class="skills-desc__item">⚡ Building responsive Single-Page-Apps (SPA) & PWA
+                                            in React.js</p>
+                                        <p class="skills-desc__item">⚡ Building responsive static websites using Next.js
+                                        </p>
+                                        <p class="skills-desc__item">⚡ Building RESTful APIs in NodeJs & Expressjs
+                                            Framework</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="what-i-do__section">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <img src="./images/blockchain-development.png" alt="" class="what-i-do__my-img">
+                            </div>
+                            <div class="col-md-6 d-flex align-items-center">
+
+                                <div class="what-i-do__skills">
+                                    <h3 class="what-i-do__skills-title">Blockchain</h3>
+                                    <div class="what-i-do__skills-tech-list">
+                                        <!-- Solidity -->
+                                        <span class="what-i-do__skills-tech-img">
+                                            <img src="https://www.logosvgpng.com/wp-content/uploads/2018/10/solidity-logo-vector.png"
+                                                alt="" class="skills-img">
+                                        </span>
+                                        <!-- meta mask -->
+                                        <span class="what-i-do__skills-tech-img">
+                                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/MetaMask_Fox.svg/768px-MetaMask_Fox.svg.png?20220831120339"
+                                                alt="" class="skills-img">
+                                        </span>
+                                        <!-- Ethereum -->
+                                        <span class="what-i-do__skills-tech-img">
+                                            <img src="https://www.svgrepo.com/show/349356/ethereum.svg" alt=""
+                                                class="skills-img">
+                                        </span>
+                                        <!-- Dfinity -->
+                                        <span class="what-i-do__skills-tech-img">
+                                            <img src="https://www.logosvgpng.com/wp-content/uploads/2020/11/dfinity-logo-vector.png"
+                                                alt="" class="skills-img">
+                                        </span>
+                                        <!-- Rust -->
+                                        <span class="what-i-do__skills-tech-img">
+                                            <img src="https://www.vectorlogo.zone/logos/rust-lang/rust-lang-ar21.svg"
+                                                alt="" class="skills-img">
+                                        </span>
+
+                                    </div>
+
+                                    <div class="what-i-do__skills-desc-list">
+                                        <p class="skills-desc__item">⚡ Experience in developing Smart Contract using
+                                            Solidity & Ethereum</p>
+                                        <p class="skills-desc__item">⚡Experience in developing Smart Contract using
+                                            Rust, Motoko & Dfinity
+                                        </p>
+                                        <p class="skills-desc__item">⚡ Developing NFT Smart Contracts using ERC-720
+                                            Token Standard</p>
+                                        <p class="skills-desc__item">⚡ Building RESTful APIs in NodeJs & Expressjs
+                                            Framework</p>
+                                        <p class="skills-desc__item">⚡ Building Dapps with React.js & Solidity using
+                                            Web3.js, Moralis & IPFS</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="personal-site__galleries">
+                        <h2 class="personal-site__galleries-heading">My Presentation at FPT Hackathon 2022 - about
+                            Blockchain technology</h2>
+                        <div class="row">
+                            <div class="personal-site__galleries-side col-3">
+                                <img src="./images/presentation-speaking.png" alt=""
+                                    class="personal-site__galleries-img">
+                            </div>
+                            <div class="galleries-site__gallerries-center col-6">
+                                <img src="./images/presentation-center.jpg" alt="" class="personal-site__galleries-img">
+                            </div>
+                            <div class="personal-site__galleries-side col-3">
+                                <img src="./images/presentation-standing.png" alt=""
+                                    class="personal-site__galleries-img">
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="personal-site__proficiency-working ">
+                        <div class="row">
+                            <div class="col-6 d-flex flex-column justify-content-center proficiency__item">
+                                <div class="progress-section">
+                                    <h3 class="proficiency__title">Proficiency</h3>
+                                    <div class="proficiency__progress">
+                                        <div class="progress-label">FRONTEND/DESIGN</div>
+
+                                        <div class="progress">
+                                            <div class="progress-bar" role="progressbar" aria-label="Example with label"
+                                                style="width: 80%;" aria-valuenow="25" aria-valuemin="0"
+                                                aria-valuemax="100">80%
+                                            </div>
+                                        </div>
+                                        <div class="proficiency__progress">
+                                            <div class="progress-label">BACKEND</div>
+
+                                            <div class="progress">
+                                                <div class="progress-bar" role="progressbar"
+                                                    aria-label="Example with label" style="width: 85%;"
+                                                    aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">85%
+                                                </div>
+                                            </div>
+                                            <div class="proficiency__progress">
+                                                <div class="progress-label">PROGRAMING</div>
+
+                                                <div class="progress">
+                                                    <div class="progress-bar" role="progressbar"
+                                                        aria-label="Example with label" style="width: 70%;"
+                                                        aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">70%
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6 proficiency__item ps-5">
+                                <img src="./images/proficiency-img.png" alt="" class="proficiency-img">
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="person-site__project">
+                        <div class="person-site__project-title">
+                            <span>
+                                <i class="fa-solid fa-laptop"></i>
+                            </span>
+                            My Outstanding Projects
+                        </div>
+                        <div class="person-site__project-list">
+                            <!-- <div class="col-6">
+                                <div class="person-site__project-item">
+                                    <h3 class="project-item__title">devloper-porfolio</h3>
+                                    <p class="project-item__desc">
+                                        Software Developer Portfolio Template built with react.js and next.js bootstrap
+                                        that helps you showcase your work and skills as a software developer.
+                                    </p>
+                                    <div class="project-item__button">
+                                        <a href="" class="project-item__link">
+                                            <i class="fa-brands fa-github" aria-hidden="true"></i>
+                                            Github
+                                        </a>
+                                    </div>
+                                </div>
+                            </div> -->
+
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <div class="card person-site__project-item">
+                                        <div class="card-body">
+                                            <h5 class="card-title project-item__title">FPT Schools Website</h5>
+                                            <p class="card-text project-item__desc"> FPT Schools Website Portfolio
+                                                Template (My first Project at Fpt polytechnic) built with
+                                                Html, Css, Vanilla Javascript
+                                                this project helps me practice skill front end.
+                                            </p>
+                                            <a href="https://github.com/sangtrandev00/final-assignment-web1013"
+                                                class="btn btn-primary project-item__button"><i
+                                                    class="fa-brands fa-github" aria-hidden="true"></i>
+                                                Github</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="card person-site__project-item">
+                                        <div class="card-body ">
+                                            <h5 class="card-title project-item__title">Shopping Website</h5>
+                                            <p class="card-text project-item__desc">With this Project I practice more
+                                                about Javascript and and using some teamplate website available</p>
+                                            <a href="https://github.com/sangtrandev00/ps20227-tran-nhat-sang-web1043"
+                                                class="btn btn-primary project-item__button"><i
+                                                    class="fa-brands fa-github" aria-hidden="true"></i>
+                                                Github</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="card person-site__project-item">
+                                        <div class="card-body ">
+                                            <h5 class="card-title project-item__title">Crowfunding Fpoly Project</h5>
+                                            <p class="card-text project-item__desc"> Software Developer Portfolio
+                                                Template built with
+                                                react.js, Html 5, Css3 on Frontend, PHP for payment conbime with Mysql
+                                                to store the data of customers,
+                                                Using Motoko and Dfinity to clarify the transaction. This is project i
+                                                built with my team at FPT hackathon 2022
+                                            </p>
+                                            <a href="https://github.com/sangtrandev00/final-hackathon-future-vision-2022"
+                                                class="btn btn-primary project-item__button"><i
+                                                    class="fa-brands fa-github" aria-hidden="true"></i>
+                                                Github</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="card person-site__project-item">
+                                        <div class="card-body ">
+                                            <h5 class="card-title project-item__title">Personal site Project</h5>
+                                            <p class="card-text project-item__desc">Here is the website I built for my
+                                                own. That you can see right now!</p>
+                                            <a href="#" class="btn btn-primary project-item__button"><i
+                                                    class="fa-brands fa-github" aria-hidden="true"></i>
+                                                Github</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+
+
+            </main>
+
+            <div id="background" class="background-wrap">
+                <div class="background">
+                    <h2 class="background__title">
+                        MY BACKGROUND
+                    </h2>
+                    <div class="background__section">
+                        <div class="row">
+                            <div class="col-5">
+                                <h3 class="background__section-title">- EDUCATION</h3>
+                            </div>
+                            <div class="col-7">
+                                <div class="background__section-desc">
+                                    <div class="background__section-item">
+                                        <h2 class="background__section-school">FPT Polytechnic</h2>
+                                        <p class="background__section-complete">Backelor's degree, Web Devlopment
+                                            / 2022 - 2024</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="background__section">
+                        <div class="row">
+                            <div class="col-5">
+                                <h3 class="background__section-title">- COURSES HAVE DONE</h3>
+                            </div>
+                            <div class="col-7">
+                                <div class="background__section-desc">
+                                    <div class="background__section-item">
+                                        <h2 class="background__section-school">Html & Css Basic
+                                        </h2>
+                                        <p class="background__section-complete">Web Devlopment at <a
+                                                href="">fullstack.edu.vn</a>
+                                            / 2021 - 2022</p>
+                                        <a href="https://fullstack.edu.vn/cert/iipm6"
+                                            class="background__section-item-link">Certificate navigation</a>
+                                    </div>
+                                    <div class="background__section-item">
+                                        <h2 class="background__section-school">Responsive Web Design</h2>
+                                        <p class="background__section-complete">Web Devlopment at <a
+                                                href="">fullstack.edu.vn</a>
+                                            / 2021 - 2022</p>
+                                        <a href="https://fullstack.edu.vn/responsive-web-design/new-cert"
+                                            class="background__section-item-link">Certificate navigation</a>
+                                    </div>
+                                    <div class="background__section-item">
+                                        <h2 class="background__section-school">Javascript Basic</h2>
+                                        <p class="background__section-complete">Web Devlopment at <a
+                                                href="">fullstack.edu.vn</a>
+                                            / 2022 - 2023 </p>
+                                        <a href="https://fullstack.edu.vn/javascript-co-ban/new-cert"
+                                            class="background__section-item-link">Certificate navigation</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="background__section">
+                        <div class="row">
+                            <div class="col-5">
+                                <h3 class="background__section-title">- OTHER CERTIFICATES</h3>
+                            </div>
+                            <div class="col-7">
+                                <div class="background__section-desc">
+                                    <div class="background__section-item">
+                                        <h2 class="background__section-school">TOEIC 660</h2>
+                                        <p class="background__section-complete">TOEIC ENGLISH at <a
+                                                href="https://iigvietnam.com/">https://iigvietnam.com</a>
+                                            / 2021 - 2022</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="background__section">
+                        <div class="row">
+                            <div class="col-5">
+                                <h3 class="background__section-title">- SKILLS</h3>
+                            </div>
+                            <div class="col-7">
+                                <div class="background__section-desc">
+                                    <div class="background__section-item">
+                                        <h2 class="background__section-school">LEADER OF FUTURE VISION TEAM</h2>
+                                        <p class="background__section-complete">Consolation prizes At Final Game FPT
+                                            Hackathon 2022 <a
+                                                href="https://www.feexp.space/hackathon/">https://www.feexp.space/hackathon/</a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div id="contact" class="contact-me">
+                    <div class="contact-me__wrap">
+                        <h2 class="contact-me__heading">CONTACT ME</h2>
+                        <div class="row">
+                            <div class="col-6">
+                                <form class="form" action="">
+                                    <div class="mb-3 form-group">
+                                        <label for="exampleFormControlInput1" class="form-label">Your Name</label>
+                                        <input type="text" class="form-control" id="exampleFormControlInput1"
+                                            placeholder="Your Name">
+                                    </div>
+                                    <div class="mb-3 form-group">
+                                        <label for="exampleFormControlInput2" class="form-label">Email
+                                            address*</label>
+                                        <input type="email" class="form-control" id="exampleFormControlInput2"
+                                            placeholder="name@example.com">
+                                    </div>
+                                    <div class="mb-3 form-group">
+                                        <label for="exampleFormControlTextarea1" class="form-label">Example
+                                            Message*</label>
+                                        <textarea class="form-control" id="exampleFormControlTextarea1"
+                                            rows="3"></textarea>
+                                    </div>
+                                    <button type="submit" class="btn btn-primary form-btn">Submit</button>
+                                </form>
+                            </div>
+                            <div class="col-6">
+                                <div class="contact-me__img-wrap">
+                                    <img src="./images/presentation-speaking-2.jpg" alt="" class="contact-me__img">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <footer class="personal-site__footer">
+                <!-- place footer here -->
+                <div class="footer__wrap">
+                    <div class="row">
+                        <div class="col-6">
+                            <div class="personal-site__brand">SangTranDev00</div>
+                        </div>
+                        <div class="col-6">
+                            <div class="row">
+                                <div class="col-4">
+                                    <div class="personal-site__contact-links">
+                                        <h3>- SOCIALS</h3>
+                                        <ul>
+                                            <li><a href="">Linkedin</a></li>
+                                            <li><a href="https://www.facebook.com/tran.nsang.00">Facebook</a></li>
+                                            <li><a href="https://github.com/sangtrandev00">Github</a></li>
+                                            <li><a href="">Twitter</a></li>
+                                        </ul>
+                                    </div>
+
+                                </div>
+                                <div class="col-4">
+                                    <div class="personal-site__contact-links">
+                                        <h3>- CONTACTS</h3>
+                                        <ul>
+                                            <li><a href="mailto:nhatsang0101@gmail.com">nhatsang0101@gmail.com</a></li>
+                                            <li><a href="tel:0937988510">0937988510</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <div class="personal-site__contact-links">
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+        integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous">
+        </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
+        integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous">
+        </script>
+    <!--Jquery Library  -->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js'
+        integrity='sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=='
+        crossorigin='anonymous'></script>
+</body>
+
+</html>

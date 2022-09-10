@@ -1,0 +1,39 @@
+:root {
+   
+}
+
+*,*:before, *:after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 1.6rem;
+}
+
+ul {
+    padding-left: 0px;
+    margin: 0px;
+}
+
+input,button, textarea, label, select {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 62.5%;
+    line-height: 1.6rem;
+}
+
+h1,h2,h3,h4,h5,h6,p {
+    margin: 0;
+    padding: 0;
+}
+
