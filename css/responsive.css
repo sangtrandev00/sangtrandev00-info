@@ -1,0 +1,144 @@
+
+/* breakpoint for tablet */
+@media only screen and (min-width: 46.25em) and (max-width: 63.9375em) {
+    .what-i-do__skills-tech-list  {
+        padding: 2rem;
+    }
+    
+    .what-i-do__skills-tech-img {
+        width: 4rem;
+        height: 4rem;
+
+        margin-top: 0.2rem;
+    }
+
+    .skills-img {
+        width: 2rem;
+    }
+    .background,
+    .contact-me,
+    .personal-site__proficiency-working,
+    .what-i-do__section,
+    .personal-site__galleries {
+        padding:0 2rem;
+    }
+
+    .proficiency__item {
+        padding: 2rem;
+    }
+
+    .personal-site__galleries {
+        height: 36rem;
+    }
+
+    .person-site__project {
+        padding: 0 2rem;
+    }
+
+    .person-site__project-title {
+        /* text-align: center; */
+        margin-top: 2rem;
+    }
+
+    .person-site__project-list {
+
+    }
+
+    .footer__wrap {
+        padding: 10rem 2rem;
+    }
+}
+
+/* breakpoint for tablet and mobile */
+@media only screen and (max-width: 63.9375em) {
+    .intro__avatar-img {
+
+    }
+    .intro__avatar {
+        margin-top: 2rem;
+    }
+
+    .intro__avatar-img,
+    .what-i-do__my-img {
+        width: 100%;
+    }
+}
+
+/* breakpoint for mobile */
+@media only screen and (max-width: 46.1875em) {
+    .personal-site {
+        overflow: hidden;
+    }
+    
+    .what-i-do__skills-desc-list {
+        padding: 2rem;
+    }
+
+    .person-site__project {
+        padding: 2rem;
+    }
+
+    .person-site__project-title-icon {
+        font-size: 2rem;
+    }
+
+    .person-site__project-title span {
+        width: 4rem;
+        height: 4rem;
+    }
+
+    .person-site__project-title {
+        font-size: 2.4rem;
+    }
+
+    .social-item:not(:first-child) {
+        margin-left: 2rem;
+    }
+
+    .social-item__icons {
+        font-size: 3rem;
+    }
+
+    .proficiency__item {
+        padding: 2rem;
+    }
+   
+
+    .personal-site__galleries {
+        display: none;
+    }
+
+
+
+
+
+    .background {
+        overflow-x: auto;
+        padding: 2rem;
+    }
+
+    .contact-me__wrap {
+        padding: 2rem;
+    }
+
+    .form {
+       
+    }
+
+    .contact-me__img {
+        display: none;
+    }
+
+    .footer__wrap {
+        padding: 10rem 2rem;
+    }
+
+    .personal-site__contact-links > h3 {
+        margin: 1rem 0;
+    }
+
+    .personal-site__contact-links > ul > li {
+        margin: 1rem 0;
+    }
+}
+
